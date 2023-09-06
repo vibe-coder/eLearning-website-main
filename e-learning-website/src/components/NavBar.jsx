@@ -2,6 +2,8 @@ import React from 'react'
 import logo from "../images/logo.svg"
 import "../scss/NavBar.scss"
 import searchIcon from "../images/search-icon.svg"
+import GreenButton from './GreenButton'
+import whiteArrow from "../images/white-arow.svg"
 
 const NavBar = () => {
   return (
@@ -24,7 +26,11 @@ const NavBar = () => {
             <img className='search-icon' src={searchIcon} alt='search-icons'/>
           </div>
 
-          <button className='free-trial-button'><a href='/'>Login</a></button>
+          <GreenButton 
+          text= "Start Free Trial"
+          icon = <img src={whiteArrow} alt='white-arrow' />
+          onClickHandler={() => console.log('Already Clicked')}
+        />
         </div>
       </div>
     </div>
