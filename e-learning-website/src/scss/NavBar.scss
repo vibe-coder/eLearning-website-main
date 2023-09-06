@@ -76,29 +76,6 @@
             filter: invert(100%);
           }
         }
-
-        .free-trial-button{
-          font-size: 1rem;
-          height: 50px;
-          width: 172px;
-          border-radius: 30px;
-          border: none;
-          background-color: #10C843;
-          color: #ffff;
-          cursor: pointer;
-          transition: 0.2s ease-in-out;
-
-          a{
-            text-decoration: none;
-            color: #ffffff;
-            transition: 0.2s ease-in-out;
-            font-size: 1rem;
-          }
-        }
-
-        .free-trial-button:hover{
-          background-color: #07af37;
-        }
       }
     }
   }
