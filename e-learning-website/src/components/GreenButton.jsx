@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GreenButton = ({text = 'Login', icon, backgroundColor = '#10C843', color='#ffff', borderColor='#10C843', onClickHandler}) => {
+const GreenButton = ({text = 'Login', icon, backgroundColor = '#10C843', color='#ffff', borderColor='transparent', onClickHandler}) => {
   
   const style = {
     fontFamily: "'IBM Plex Sans', sans-serif",
@@ -9,8 +9,8 @@ const GreenButton = ({text = 'Login', icon, backgroundColor = '#10C843', color='
     backgroundColor: backgroundColor,
     borderColor: borderColor,
     border: "solid",
-    borderSize: "2px",
-    padding: "15px 25px",
+    borderWidth: '2px',
+    padding: "13px 25px",
     cursor: 'pointer',
     borderRadius: "100px",
     display: "flex",
