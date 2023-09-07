@@ -28,6 +28,7 @@ const NavBar = () => {
 
           <GreenButton 
           text= "Start Free Trial"
+          borderColor='transparent'
           icon = <img src={whiteArrow} alt='white-arrow' />
           onClickHandler={() => console.log('Already Clicked')}
         />
