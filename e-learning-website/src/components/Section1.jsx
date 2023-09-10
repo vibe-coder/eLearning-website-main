@@ -20,7 +20,7 @@ const Section1 = () => {
           <p>Using highly personalised activities, videos and animations you can energise your students and motivate them to achieve their learning goals as they progress through a journey.</p>
 
           <div className='button-wrapper'>
-            <GreenButton text='Register' borderColor='transparent' icon=<img src={whiteArrow} alt='white arrow'/>/>
+            <GreenButton color='#ffff' text='Register' borderColor='#10C843' icon=<img src={whiteArrow} alt='white arrow'/>/>
             <GreenButton text='Login' color='#10C843' backgroundColor='rgb(244, 244, 244)' borderColor='#10C843' icon=<img src={greenArrow} alt='white arrow'/>/>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Section1 = () => {
             <button className='arrow-down'><img src={arrowDown} alt='arrow down'/></button>
           </div>
           <div className='right'>
-            <GreenButton text='Search' icon= <img src={searchICon} alt='search icon'  />/>
+            <GreenButton borderColor='#10C843' color='#ffff' text='Search' icon= <img src={searchICon} alt='search icon'  />/>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ const AboutUs = () => {
         <p>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products. Start selling the right products to the customer base that you know best. We connect you to inventory, so you can focus on creating a catalog of profitable products for your online store.
           <br/> <br/>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products. Start selling the right products to the customer base that you know best. We connect you to inventory, so you can focus on creating a catalog of profitable products for your online store.
         </p>
-        <GreenButton text='Join Us' borderColor='transparent' icon=<img src={whiteArrow} alt='arrow' />/>
+        <GreenButton color='#ffff' text='Join Us' borderColor='#10C843' icon=<img src={whiteArrow} alt='arrow' />/>
       </div>
 
       {/* Right Column */}
