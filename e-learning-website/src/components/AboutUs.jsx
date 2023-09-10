@@ -11,8 +11,8 @@ const AboutUs = () => {
 
       {/* Left Column */}
       <div className='left-column'>
-        <h1>About Us</h1>
-        <h2>eLearning providing the best opportunities to the students around the globe.</h2>
+        <h2>About Us</h2>
+        <h1>eLearning providing the best opportunities to the students around the globe.</h1>
         <p>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products. Start selling the right products to the customer base that you know best. We connect you to inventory, so you can focus on creating a catalog of profitable products for your online store.
           <br/> <br/>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products. Start selling the right products to the customer base that you know best. We connect you to inventory, so you can focus on creating a catalog of profitable products for your online store.
         </p>
