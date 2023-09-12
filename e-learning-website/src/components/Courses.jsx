@@ -3,8 +3,12 @@ import "../scss/Courses.scss"
 import laptop2 from "../images/laptop-2.jpg"
 import GreenButton from './GreenButton'
 import shoppingBag from "../images/shop.svg"
+import whiteArrow from "../images/white-arow.svg"
+import CoursesData from './CoursesData'
+
 
 const Courses = () => {
+  
   return (
     <section className='courses-container'>
       
@@ -17,31 +21,41 @@ const Courses = () => {
 
       {/* Course Scroll Wrapper */}
       <div className="courses-scroll-wrapper">
-        <div className="course-container">
-          <div className="image-wrapper">
-            <img src={laptop2} alt='laptop img' />
-          </div>
 
-          <div className="course-text-wrapper">
-            <div className="header">
-              <h2>Basics of JAVA</h2>
-              <button>Beginner Level</button>
-            </div>
-            <p>Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
-            <h1>125.65<span className='currency'>AED</span></h1>
-            <div className="button-wrapper">
-              <GreenButton text='View Course' color='#ffff'/>
-              <div className="shop">
-                <img src={shoppingBag} alt='shop'/>
+        <div className='scrollable'>
+          {/* Course Container */}
+          {CoursesData.map((data) => {
+            return(
+            <div className="single-course-container">
+              <div className="image-wrapper">
+                <img src={require("../images/" + data.imaageURL + ".png")} alt='laptop img' />
+              </div>
+
+              <div className="course-text-wrapper">
+                <div className="header">
+                  <h2>{data.name}</h2>
+                  <button>{data.level}</button>
+                </div>
+                <p>{data.info}</p>
+                <h1>{data.price}<span className='currency'>AED</span></h1>
+                <div className="button-wrapper">
+                  <GreenButton text='View Course' color='#ffff'/>
+                  <div className="shop">
+                    <img src={shoppingBag} alt='shop'/>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+            )
+          })}
         </div>
       </div>
 
       {/* View All Courses Wrapper */}
       <div className="view-all-courses">
-        View All Courses
+        <h1>View All Courses</h1>
+        <div className='line'><hr/></div>
+        <GreenButton backgroundColor='transparent' color='#ffff' text='All Features' icon=<img src={whiteArrow} alt='arrow forward'/>/>
       </div>
     </section>
   )
