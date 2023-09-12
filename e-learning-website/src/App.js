@@ -1,6 +1,7 @@
 import './App.css';
 import AboutUs from './components/AboutUs';
 import Benefits from './components/Benefits';
+import BlogPost from './components/BlogPost';
 import Client from './components/Client';
 import Courses from './components/Courses';
 import Features from './components/Features';
@@ -19,6 +20,7 @@ function App() {
       <JoinUs/>
       <Benefits/>
       <Courses/>
+      <BlogPost/>
     </div>
   );
 }
