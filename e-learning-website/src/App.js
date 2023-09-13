@@ -4,10 +4,12 @@ import Benefits from './components/Benefits';
 import BlogPost from './components/BlogPost';
 import Client from './components/Client';
 import Courses from './components/Courses';
+import FAQs from './components/FAQs';
 import Features from './components/Features';
 import JoinUs from './components/JoinUs';
 import NavBar from './components/NavBar';
 import Section1 from './components/Section1';
+import teamImage from "./images/team.jpg"
 
 function App() {
   return (
@@ -17,10 +19,11 @@ function App() {
       <Client/>
       <AboutUs/>
       <Features/>
-      <JoinUs/>
+      <JoinUs imageURL= <img style={{objectFit:"cover", objectPosition: "center", width: "1160px", height: "400px", position:"absolute", opacity:".1" }} src={teamImage} alt='team img' />/>
       <Benefits/>
       <Courses/>
       <BlogPost/>
+      <FAQs/>
     </div>
   );
 }
