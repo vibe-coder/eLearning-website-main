@@ -1,14 +1,13 @@
 import React from 'react'
 import "../scss/JoinUs.scss"
-import teamImage from "../images/team.jpg"
 import GreenButton from './GreenButton'
 import whiteArrow from "../images/white-arow.svg"
 
-const JoinUs = () => {
+const JoinUs = ({imageURL}) => {
   return (
     <div className='joinus-container'>
       <div className="joinus-wrapper">
-        <img className='background-img' src={teamImage} alt='team img'/>
+        {imageURL}
         <div className="text-wrapper">
           <h2>Join Us</h2>
           <h1>Join Us by Creating Account or Start a Free Trial</h1>
