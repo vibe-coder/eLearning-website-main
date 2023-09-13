@@ -14,7 +14,7 @@ body{
 
 @media (min-width: 1200px) {
   .faqs-container{
-    padding: 75px 0;
+    padding-top: 75px;
 
     // *Text Wrapper
     .text-wrapper{
@@ -52,7 +52,7 @@ body{
     .questions-wrapper{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(3, 1fr);
+      // grid-template-rows: repeat(3, 1fr);
       grid-column-gap: 20px;
       grid-row-gap: 20px;
       padding: 0 180px;
