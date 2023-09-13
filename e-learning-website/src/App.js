@@ -6,6 +6,7 @@ import Client from './components/Client';
 import Courses from './components/Courses';
 import FAQs from './components/FAQs';
 import Features from './components/Features';
+import Footer from './components/Footer';
 import JoinUs from './components/JoinUs';
 import NavBar from './components/NavBar';
 import Section1 from './components/Section1';
@@ -24,6 +25,7 @@ function App() {
       <Courses/>
       <BlogPost/>
       <FAQs/>
+      <Footer/>
     </div>
   );
 }
