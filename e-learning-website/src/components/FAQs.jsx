@@ -1,8 +1,8 @@
 import React from 'react'
 import "../scss/FAQs.scss"
-import teamImage from "../images/team.jpg"
 import JoinUs from '../components/JoinUs';
 import bulb2 from "../images/bulb2.jpg"
+import faqsData from './FAQsData';
 
 
 const FAQs = () => {
@@ -18,35 +18,14 @@ const FAQs = () => {
 
       {/* Questions Wrapper */}
       <div className="questions-wrapper">
-        <div className="single-question-wrapper">
-          <h2>What is dropshipping?</h2>
-          <p>Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
-        </div>
-
-        <div className="single-question-wrapper">
-          <h2>What is dropshipping?</h2>
-          <p>Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
-        </div>
-
-        <div className="single-question-wrapper">
-          <h2>What is dropshipping?</h2>
-          <p>Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
-        </div>
-
-        <div className="single-question-wrapper">
-          <h2>What is dropshipping?</h2>
-          <p>Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
-        </div>
-
-        <div className="single-question-wrapper">
-          <h2>What is dropshipping?</h2>
-          <p>Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
-        </div>
-
-        <div className="single-question-wrapper">
-          <h2>What is dropshipping?</h2>
-          <p>Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
-        </div>
+        {faqsData.map((data) => {
+          return(
+            <div className="single-question-wrapper" key={data.id}>
+              <h2>{data.question}</h2>
+              <p>{data.description}</p>
+            </div>
+          )
+        })}
       </div>
 
       <JoinUs imageURL= <img style={{objectFit:"cover", objectPosition: "center", width: "1160px", height: "400px", position:"absolute", opacity:".1" }} src={bulb2} alt='team img' />/>
