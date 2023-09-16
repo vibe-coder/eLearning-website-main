@@ -21,7 +21,7 @@ const Section1 = () => {
 
           <div className='button-wrapper'>
             <GreenButton color='#ffff' text='Register' borderColor='#10C843' icon=<img src={whiteArrow} alt='white arrow'/>/>
-            <GreenButton text='Login' color='#10C843' backgroundColor='rgb(244, 244, 244)' borderColor='#10C843' icon=<img src={greenArrow} alt='white arrow'/>/>
+            <GreenButton text='Login' color='#10C843' backgroundColor='#ffff' borderColor='#10C843' icon=<img src={greenArrow} alt='white arrow'/>/>
           </div>
         </div>
 
