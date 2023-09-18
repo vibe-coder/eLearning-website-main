@@ -20,7 +20,7 @@ function App() {
       <Client/>
       <AboutUs/>
       <Features/>
-      <JoinUs imageURL= <img style={{objectFit:"cover", objectPosition: "center", width: "1160px", height: "400px", position:"absolute", opacity:".1" }} src={teamImage} alt='team img' />/>
+      <JoinUs imageURL= <img style={{objectFit:"cover", objectPosition: "center", width: "100%", height: "100%", position:"absolute", opacity:".1" }} src={teamImage} alt='team img' />/>
       <Benefits/>
       <Courses/>
       <BlogPost/>
