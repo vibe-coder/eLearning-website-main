@@ -5,6 +5,7 @@ import GreenButton from './GreenButton'
 import shoppingBag from "../images/shop.svg"
 import whiteArrow from "../images/white-arow.svg"
 import CoursesData from './CoursesData'
+import team
 
 
 const Courses = () => {
@@ -28,7 +29,7 @@ const Courses = () => {
             return(
             <div className="single-course-container">
               <div className="image-wrapper">
-                <img src={require("../images/" + data.imaageURL + ".png")} alt='laptop img' />
+                <img src={} alt='laptop img' />
               </div>
 
               <div className="course-text-wrapper">
