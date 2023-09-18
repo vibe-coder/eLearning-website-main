@@ -2,8 +2,7 @@ import React from 'react'
 import "../scss/AboutUs.scss"
 import GreenButton from './GreenButton'
 import whiteArrow from "../images/white-arow.svg"
-import officeImg from "../images/office.png"
-import laptopImg1 from "../images/laptop-1.png"
+import aboutImg from "../images/about-image.png"
 
 const AboutUs = () => {
   return (
@@ -13,7 +12,7 @@ const AboutUs = () => {
       <div className='left-column'>
         <h2>About Us</h2>
         <h1>eLearning providing the best opportunities to the students around the globe.</h1>
-        <p>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products. Start selling the right products to the customer base that you know best. We connect you to inventory, so you can focus on creating a catalog of profitable products for your online store.
+        <p>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products.
         </p>
         <GreenButton color='#ffff' text='Join Us' borderColor='#10C843' icon=<img src={whiteArrow} alt='arrow' />/>
       </div>
@@ -21,15 +20,7 @@ const AboutUs = () => {
       {/* Right Column */}
       <div className='right-column'>
         <div className='image-container'>
-          {/* Image 1 */}
-          <div className='image-1-wrapper'>
-            <img src={officeImg} alt='office img' />
-          </div>
-
-          {/* Image 2 */}
-          <div className='image-2-wrapper'>
-            <img src={laptopImg1} alt='office img' />
-          </div>
+          <img src={aboutImg} alt='office img' />
         </div>
       </div>
     </div>
