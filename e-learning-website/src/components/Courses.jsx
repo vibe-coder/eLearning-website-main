@@ -1,11 +1,9 @@
 import React from 'react'
 import "../scss/Courses.scss"
-import laptop2 from "../images/laptop-2.jpg"
 import GreenButton from './GreenButton'
 import shoppingBag from "../images/shop.svg"
 import whiteArrow from "../images/white-arow.svg"
 import CoursesData from './CoursesData'
-import team
 
 
 const Courses = () => {
@@ -29,7 +27,7 @@ const Courses = () => {
             return(
             <div className="single-course-container">
               <div className="image-wrapper">
-                <img src={} alt='laptop img' />
+                <img src={require("../images/" + data.imaageURL + ".png")} alt='laptop img' />
               </div>
 
               <div className="course-text-wrapper">
