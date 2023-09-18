@@ -1,4 +1,5 @@
-@media (min-width: 1200px) {
+// *For Desktop
+@media (min-width: 1300px) {
   .client-container{
     background-color: #1E1E1E;
     color: #ffff;
@@ -7,5 +8,41 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 75px;
+  }
+}
+
+
+// *For Tablet
+@media (max-width: 1299.99px) and  (min-width: 801px){
+  .client-container{
+    background-color: #1E1E1E;
+    color: #ffff;
+    padding: 70px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 800px) and  (min-width: 320px){
+  .client-container{
+    background-color: #1E1E1E;
+    color: #ffff;
+    padding: 40px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+    gap: 30px;
+
+    div{
+      img{
+        width: clamp(30px, 130px, 500px);
+      }
+    }
   }
 }
