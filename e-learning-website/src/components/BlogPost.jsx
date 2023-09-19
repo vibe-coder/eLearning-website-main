@@ -2,7 +2,6 @@ import React from 'react'
 import "../scss/BlogPost.scss"
 import GreenButton from './GreenButton'
 import greenArrow from "../images/green-arrow.svg"
-import laptop from "../images/team.jpg"
 import BlogPostData from './BlogPostData'
 
 const BlogPost = () => {
