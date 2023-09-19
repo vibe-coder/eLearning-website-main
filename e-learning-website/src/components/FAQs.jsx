@@ -9,7 +9,7 @@ const FAQs = () => {
   return (
     <section className='faqs-container'>
       {/* Text Wrapper */}
-      <div className="text-wrapper">
+      <div className="text-wrapper-2">
         <h2>FAQs</h2>
         <h1>Frequently Asked Qestions</h1>
         <p>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p>
@@ -28,7 +28,7 @@ const FAQs = () => {
         })}
       </div>
 
-      <JoinUs imageURL= <img style={{objectFit:"cover", objectPosition: "center", width: "1160px", height: "400px", position:"absolute", opacity:".1" }} src={bulb2} alt='team img' />/>
+      <JoinUs imageURL= <img style={{objectFit:"cover", objectPosition: "center", width: "100%", height: "100%", position:"absolute", opacity:".1" }} src={bulb2} alt='team img' />/>
     </section>
   )
 }
