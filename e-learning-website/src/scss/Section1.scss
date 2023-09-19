@@ -9,6 +9,7 @@
       padding: 0 130px 50px 130px;
       font-family: IBM Plex Sans Condensed;
       gap: 20px;
+      margin-top: 100px;
   
       // *Left Section
       .left-section{
@@ -134,9 +135,10 @@
     height: 80vh;
     display: flex;
     justify-content: space-between;
-    padding: 0 50px 50px 50px;
+    padding: 30px 50px 50px 50px;
     font-family: IBM Plex Sans Condensed;
     gap: 20px;
+    margin-top: 100px;
 
     // *Left Section
     .left-section{
@@ -263,13 +265,13 @@
 // *For Mobile
  @media (max-width: 800px) and (min-width: 320px) {
     .section-1-container{
-      // height: 80vh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       padding: 50px 30px 50px 30px;
       font-family: IBM Plex Sans Condensed;
       gap: 20px;
+      margin-top: 100px;
   
       // *Left Section
       .left-section{
