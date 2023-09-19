@@ -167,7 +167,7 @@ body{
       padding: 0 125px;
 
       h2{
-        font-size: 1.5rem;
+        font-size: clamp(25px, 1.5vw, 1.7rem);
         margin: 0;
         margin-bottom: 20px;
         color: #10C843;
