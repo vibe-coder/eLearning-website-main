@@ -17,10 +17,27 @@
     z-index: 3;
 
 
-
-    // *Link, Search Bar and Trial Button
-    .mwnuSlide{
+    .menuToggle{
       width: 85%;
+
+      input{
+        position: absolute;
+        visibility: hidden;
+      }
+      .toggle-button{
+        position: absolute;
+        visibility: hidden;
+
+        img{ 
+          position: absolute;
+          visibility: hidden;
+        }
+      }
+
+
+      // *Link, Search Bar and Trial Button
+      .menuSlide{
+      width: 100%;
       display: flex;
       justify-content: space-between;
 
@@ -87,6 +104,7 @@
             filter: invert(100%);
           }
         }
+      }
       }
     }
   }
