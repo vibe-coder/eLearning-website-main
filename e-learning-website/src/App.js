@@ -15,17 +15,19 @@ import teamImage from "./images/team.jpg"
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <Section1/>
-      <Client/>
-      <AboutUs/>
-      <Features/>
-      <JoinUs imageURL= <img style={{objectFit:"cover", objectPosition: "center", width: "100%", height: "100%", position:"absolute", opacity:".1" }} src={teamImage} alt='team img' />/>
-      <Benefits/>
-      <Courses/>
-      <BlogPost/>
-      <FAQs/>
-      <Footer/>
+      <div className='wrapper'>
+        <NavBar/>
+        <Section1/>
+        <Client/>
+        <AboutUs/>
+        <Features/>
+        <JoinUs imageURL= <img style={{objectFit:"cover", objectPosition: "center", width: "100%", height: "100%", position:"absolute", opacity:".1" }} src={teamImage} alt='team img' />/>
+        <Benefits/>
+        <Courses/>
+        <BlogPost/>
+        <FAQs/>
+        <Footer/>
+      </div>
     </div>
   );
 }
