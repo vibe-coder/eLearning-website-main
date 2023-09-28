@@ -3,7 +3,7 @@
 @media (min-width: 1300px) {
     // *For Desktop Above
     .section-1-container{
-      height: 85vh;
+      height: 80vh;
       display: flex;
       justify-content: space-between;
       padding: 0 130px 50px 130px;
@@ -12,17 +12,18 @@
   
       // *Left Section
       .left-section{
-        width: 55%;
+        width: 50%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         overflow: visible;
+        padding-bottom: 30px;
   
         .text-wrapper{
           // width: 650px;
   
           h1{
-            font-size: clamp(50px, 4.5vw, 4.8rem);
+            font-size: clamp(50px, 4.0vw, 4.3rem);
             font-weight: 600;
             font-family: 'IBM Plex Sans', sans-serif;
             margin: 0;
@@ -54,43 +55,49 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
-          padding: 20px;
-          width: 800px;
+          padding: 20px 10px;
+          width: 850px;
           overflow: visible;
           box-shadow: 0px 10px 30px rgba($color: #000000, $alpha: 0.05);
           z-index: 2;
+          gap: 20px;
   
           .left, .middle{
             height: 50px;
             width: 40%;
             padding-right: 5px;
             border-right: solid 1px #c6c6c6;
+            
+            .select-wrapper{
+              border: solid 1px;
+              border-color: #c6c6c6;
+              border-radius: 30px;
+              width: 90%;
+              cursor: pointer;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+              .select{
+                border: none;
+                border-radius: 30px;
+                padding-right: 20px;
+                width: 90%;
+                height: 90%;
+                cursor: pointer;
+              }
+
+              .select:focus{
+                border: none;
+                outline: none;
+              }
+            }
           }
   
           .left, .middle, .right{
             display: flex;
             justify-content: space-between;
             gap: 10px;
-  
-            input{
-              border: none;
-              border-width: .5px;
-              border-radius: 30px;
-              text-indent: 10px;
-              width: 70%;
-            }
-  
-            .arrow-down{
-              width: 40px;
-              width: 40px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              border-radius: 30px;
-              border: none;
-              margin-right: 5px;
-              background-color: transparent;
-            }
           }
         }
     
@@ -180,43 +187,49 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px;
+        padding: 20px 10px;
         width: 120%;
         overflow: visible;
         box-shadow: 0px 10px 30px rgba($color: #000000, $alpha: 0.05);
         z-index: 2;
+        gap: 20px;
 
         .left, .middle{
           height: 50px;
           width: 40%;
           padding-right: 5px;
           border-right: solid 1px #c6c6c6;
+
+          .select-wrapper{
+            border: solid 1px;
+            border-color: #c6c6c6;
+            border-radius: 30px;
+            width: 90%;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .select{
+              border: none;
+              border-radius: 30px;
+              padding-right: 20px;
+              width: 90%;
+              height: 90%;
+              cursor: pointer;
+            }
+
+            .select:focus{
+              border: none;
+              outline: none;
+            }
+          }
         }
 
         .left, .middle, .right{
           display: flex;
           justify-content: space-between;
           gap: 10px;
-
-          input{
-            border: none;
-            border-width: .5px;
-            border-radius: 30px;
-            text-indent: 10px;
-            width: 70%;
-          }
-
-          .arrow-down{
-            width: 40px;
-            width: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 30px;
-            border: none;
-            margin-right: 5px;
-            background-color: transparent;
-          }
         }
       }
   
@@ -311,7 +324,7 @@
           flex-wrap: wrap;
           justify-content: space-between;
           align-items: center;
-          padding: 20px;
+          padding: 20px 20px;
           overflow: visible;
           box-shadow: 0px 10px 30px rgba($color: #000000, $alpha: 0.05);
           z-index: 2;
@@ -322,31 +335,37 @@
             height: 50px;
             width: 40%;
             flex: 1 0 170px;
+
+            .select-wrapper{
+              border: solid 1px;
+              border-color: #c6c6c6;
+              border-radius: 5px;
+              width: 100%;
+              cursor: pointer;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+              .select{
+                border: none;
+                border-radius: 30px;
+                padding-right: 20px;
+                width: 90%;
+                height: 90%;
+                cursor: pointer;
+              }
+  
+              .select:focus{
+                border: none;
+                outline: none;
+              }
+            }
           }
   
           .left, .middle, .right{
             background-color: rgb(255, 255, 255);
             display: flex;
             justify-content: space-between;
-  
-            input{
-              border-width: .5px;
-              border-radius: 30px;
-              text-indent: 10px;
-              width: 80%;
-            }
-  
-            .arrow-down{
-              width: 40px;
-              width: 40px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              border-radius: 30px;
-              border: none;
-              margin-right: 5px;
-              background-color: transparent;
-            }
           }
         }
     
