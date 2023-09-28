@@ -28,12 +28,25 @@ const Section1 = () => {
 
         <div className='course-selection-wrapper'>
           <div className='left'>
-            <input placeholder='Select Course'/> 
-            <button className='arrow-down'><img src={arrowDown} alt='arrow down'/></button>
+            <div className='select-wrapper'>
+              <select className='select' name='course-list' id='course-list'>
+                <option value="NaN">Select Course</option>
+                <option value="Cyber-Security">Cyber Security</option>
+                <option value="UI-Design">UI Design</option>
+                <option value="UX-Design">UX Design</option>
+                <option value="Backend-Development">Backend Development</option>
+                <option value="Frontend-Development">Frontend Development</option>
+              </select>
+            </div>
           </div>
           <div className='middle'>
-            <input placeholder='Select Course'/> 
-            <button className='arrow-down'><img src={arrowDown} alt='arrow down'/></button>
+            <div className='select-wrapper'>
+              <select className='select' name='course-type' id='course-list'>
+                <option value="NaN">Select Course Type</option>
+                <option value="Online">Online</option>
+                <option value="On-Site">On Site</option>
+              </select>
+            </div>
           </div>
           <div className='right'>
             <GreenButton borderColor='#10C843' color='#ffff' text='Search' icon= <img src={searchICon} alt='search icon'  />/>
