@@ -3,7 +3,6 @@ import "../scss/Section1.scss"
 import GreenButton from './GreenButton'
 import whiteArrow from "../images/white-arow.svg"
 import greenArrow from "../images/green-arrow.svg"
-import arrowDown from "../images/arrow-down.svg"
 import searchICon from "../images/white-search-icon.svg"
 import ladyImage from "../images/lady.png"
 
