@@ -20,7 +20,7 @@ const BlogPost = () => {
       <div className="blog-wrapper">
         {BlogPostData.map((data) => {
           return(
-            <div className="single-blog-container">
+            <div className="single-blog-container" key={data.id}>
               <div className="image-wrapper">
                 <img src={require("../images/" + data.imageURL + ".jpg")} alt='blog img'/>
               </div>
