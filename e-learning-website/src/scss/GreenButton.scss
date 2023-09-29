@@ -1,0 +1,8 @@
+.button{
+  border: solid 2px #10C843;
+  transition: .2s ease-in-out;
+}
+
+.button:hover{
+  filter: grayscale(50%);
+}
