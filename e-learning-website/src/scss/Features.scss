@@ -1,5 +1,5 @@
 body{
-  font-family: IBM Plex Sans Condensed;;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 
@@ -54,6 +54,10 @@ body{
         width: 550px;
         margin: 0;
         margin-bottom: 50px;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-weight: 300;
+        font-family: 'IBM Plex Sans', sans-serif;
       }
     }
   }
@@ -70,7 +74,6 @@ body{
 
     .left-column{
       width: 50%;
-      // background-color: pink;
 
       .image-wrapper{
         width: 90%;
@@ -94,7 +97,7 @@ body{
 
     .right-column{
       width: 50%;
-      // background-color: red;
+
       h2{
         font-size: clamp(25px, 1.5vw, 1.7rem);
         margin: 0;
@@ -105,14 +108,16 @@ body{
       h1{
         margin: 0;
         margin-bottom: 20px;
-        // font-size: 3rem;
-        // line-height: 3.7rem;
         font-size: clamp(30px, 3.5vw, 3rem);
         font-weight: 500;
       }
       p{
         margin: 0;
         margin-bottom: 50px;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-weight: 300;
+        font-family: 'IBM Plex Sans', sans-serif;
       }
     }
   }
@@ -156,7 +161,7 @@ body{
 
     .right-column{
       width: 100%;
-      // background-color: red;
+      
       h2{
         font-size: clamp(25px, 1.5vw, 1.7rem);
         margin: 0;
@@ -167,14 +172,16 @@ body{
       h1{
         margin: 0;
         margin-bottom: 20px;
-        // font-size: 3rem;
-        // line-height: 3.7rem;
         font-size: clamp(30px, 3.5vw, 3rem);
         font-weight: 500;
       }
       p{
         margin: 0;
         margin-bottom: 50px;
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        font-weight: 300;
+        font-family: 'IBM Plex Sans', sans-serif;
       }
     }
   }

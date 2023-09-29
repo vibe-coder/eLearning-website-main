@@ -1,5 +1,5 @@
 body{
-  font-family: IBM Plex Sans Condensed;;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 
@@ -26,15 +26,17 @@ body{
       h1{
         margin: 0;
         margin-bottom: 20px;
-        // font-size: 3rem;
         line-height: 3.7rem;
         font-weight: 500;
         font-size: clamp(30px, 3.5vw, 3rem);
       }
       p{
-        // width: 550px;
         margin: 0;
         margin-bottom: 50px;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-weight: 300;
+        font-family: 'IBM Plex Sans', sans-serif;
       }
     }
 
@@ -63,7 +65,6 @@ body{
   }
 }
 
-
 // *For Tablets
 @media (max-width: 1299.99px) and (min-width: 801px) {
   .about-us-container{
@@ -87,14 +88,16 @@ body{
       h1{
         margin: 0;
         margin-bottom: 20px;
-        // font-size: 3rem;
         font-weight: 500;
         font-size: clamp(30px, 3.5vw, 3rem);
       }
       p{
-        // width: 550px;
         margin: 0;
         margin-bottom: 50px;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-weight: 300;
+        font-family: 'IBM Plex Sans', sans-serif;
       }
     }
 
@@ -154,6 +157,10 @@ body{
       p{
         margin: 0;
         margin-bottom: 50px;
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        font-weight: 300;
+        font-family: 'IBM Plex Sans', sans-serif;
       }
     }
 
