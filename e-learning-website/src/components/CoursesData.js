@@ -1,5 +1,6 @@
 const CoursesData = [
   {
+    id: 1,
     imaageURL: "laptop-1",
     name: "Basics of JAVA",
     level: "Beginner Level",
@@ -8,6 +9,7 @@ const CoursesData = [
   },
 
   {
+    id: 2,
     imaageURL: "tab",
     name: "OOP Fundamentals",
     level: "Beginner Level",
@@ -16,6 +18,7 @@ const CoursesData = [
   },
 
   {
+    id: 3,
     imaageURL: "computer-setup",
     name: "Into to UI/UX",
     level: "Beginner Level",
@@ -24,6 +27,7 @@ const CoursesData = [
   },
 
   {
+    id: 4,
     imaageURL: "gaming",
     name: "UI Certification",
     level: "Beginner Level",
@@ -32,6 +36,7 @@ const CoursesData = [
   },
 
   {
+    id: 5,
     imaageURL: "laptop-1",
     name: "UX Certification",
     level: "Beginner Level",
