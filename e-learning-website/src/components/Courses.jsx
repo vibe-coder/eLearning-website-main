@@ -25,7 +25,7 @@ const Courses = () => {
           {/* Course Container */}
           {CoursesData.map((data) => {
             return(
-            <div className="single-course-container">
+            <div className="single-course-container" key={data.id}>
               <div className="image-wrapper">
                 <img src={require("../images/" + data.imaageURL + ".png")} alt='laptop img' />
               </div>
