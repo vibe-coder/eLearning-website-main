@@ -46,34 +46,7 @@ const NavBar = () => {
         />
           </div>
         </div>
-        
       </div>
-
-
-      {/* <div id='menuSlide' className='for-mobile-wrapper'>
-        <ul className='link-list-wrapper'>
-          <div className='link-wrapper'><li className='link'><a href='/'>Home</a></li></div>
-          <div className='link-wrapper'><li className='link'><a href='/'>Features</a></li></div>
-          <div className='link-wrapper'><li className='link'><a href='/'>Benefits</a></li></div>
-          <div className='link-wrapper'><li className='link'><a href='/'>Courses</a></li></div>
-          <div className='link-wrapper'><li className='link'><a href='/'>Blogs</a></li></div>
-          <div className='link-wrapper'><li className='link'><a href='/'>Login</a></li></div>
-        </ul>
-
-        <div className='searchbar-trial-wrapper'>
-          <div className='searchbar-wrapper'>
-            <img className='search-icon' src={searchIcon} alt='search-icons'/>
-          </div>
-
-          <GreenButton 
-          color='#ffff'
-          text= "Start Free Trial"
-          borderColor='#10C843'
-          icon = <img src={whiteArrow} alt='white-arrow' />
-          onClickHandler={() => console.log('Already Clicked')}
-        />
-        </div>
-      </div> */}
     </div>
   )
 }
