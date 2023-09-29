@@ -17,7 +17,7 @@
         flex-direction: column;
         justify-content: flex-end;
         overflow: visible;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
   
         .text-wrapper{
           // width: 650px;
@@ -25,7 +25,7 @@
           h1{
             font-size: clamp(50px, 4.0vw, 4.3rem);
             font-weight: 600;
-            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: IBM Plex Sans Condensed;
             margin: 0;
             margin-bottom: 20px;
   
@@ -35,9 +35,11 @@
           }
   
           p{
-            font-size: 1rem;
-            width: 450px;
+            width: 580px;
+            font-size: 1.3rem;
+            font-weight: 300;
             margin: 0;
+            font-family: 'IBM Plex Sans', sans-serif;
           }
   
           .button-wrapper{
@@ -167,9 +169,10 @@
         }
 
         p{
-          font-size: 1rem;
-          // width: clamp(300px, 450px, 600px);
-          margin: 0;
+            font-size: 1.3rem;
+            font-weight: 300;
+            margin: 0;
+            font-family: 'IBM Plex Sans', sans-serif;
         }
 
         .button-wrapper{
@@ -305,8 +308,8 @@
           p{
             font-size: 1.3rem;
             font-weight: 300;
-            line-height: 1.7rem;
             margin: 0;
+            font-family: 'IBM Plex Sans', sans-serif;
           }
   
           .button-wrapper{
