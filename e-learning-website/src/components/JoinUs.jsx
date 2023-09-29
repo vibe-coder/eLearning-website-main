@@ -14,8 +14,8 @@ const JoinUs = ({imageURL}) => {
           <p>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products.</p>
 
           <div className="button-wrapper">
-          <GreenButton text='Start Free Trial' color='#ffff' borderColor='#10C843' icon= <img src={whiteArrow} alt='arrow icon'/>/>
-          <GreenButton text='Contact Us' backgroundColor='transparent' color='#ffff' borderColor='#10C843' icon= <img src={whiteArrow} alt='arrow icon'/>/>
+          <GreenButton text='Start Free Trial' borderColor='yellow' icon= <img src={whiteArrow} alt='arrow icon'/>/>
+          <GreenButton text='Contact Us' backgroundColor='transparent' color='#ffff'  icon= <img src={whiteArrow} alt='arrow icon'/>/>
           </div>
         </div>
       </div>
